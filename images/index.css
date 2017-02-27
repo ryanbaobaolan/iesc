@@ -31,16 +31,21 @@ body{
 }
 .main_left_hot ul li{
   list-style: none;
-  height:43px;
-  line-height: 44px;
-  width:650px;
+  width:700px;
   position:relative;
-  overflow: hidden;
-  word-break:break-all;
+
 }
 .main_left_hot ul li a{
   font-size:14px;
   color:#2b2b2b;
+  width:590px;
+  height:43px;
+  line-height: 44px;
+  display: block;
+  overflow: hidden;
+  word-break:break-all;
+  text-overflow:ellipsis;
+  white-space:nowrap;
 }
 .main_left_hot ul{
   width:750px;
@@ -50,7 +55,8 @@ body{
 .main_left_hot ul li span{
   display:inline-block;
   position: absolute;
-  right:25px;
+  right:0px;
+  top:12px;
 }
 .main_left_block .block1{
   width:358px;
@@ -76,13 +82,31 @@ body{
 }
 .main_left_block .block1 ul{
   width:358px;
-  height:214px;
-  background: #fff url('indexlist_43.jpg') no-repeat;
+  background: #fff;
 }
-.main_left_block .block1 ul li{
+.main_left_block .block1 ul li {
   list-style: none;
+  position:relative;
+  border-bottom: 1px dashed #c9c9c9;
+}
+.main_left_block .block1 ul li a{
   height:43px;
   line-height: 44px;
+  overflow: hidden;
+  word-break:break-all;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  display: block;
+  font-size: 14px;
+  color:#2b2b2b;
+}
+.main_left_block .block1 ul li span{
+    position:absolute;
+    left:-13px;
+    top:16px;
+    width:7px;
+    height:11px;
+    background: url('arr_13.gif') no-repeat;
 }
 
 .main_left_block .block2{
@@ -109,13 +133,33 @@ body{
 .main_left_block .block2 ul{
   width:358px;
   height:86px;
-  background: #fff url('indexlist_47.jpg') no-repeat;
+  background: #fff;
 }
-.main_left_block .block2 ul li{
+.block2 ul li {
   list-style: none;
+  position:relative;
+  border-bottom: 1px dashed #c9c9c9;
+}
+.main_left_block .block2 ul li a{
   height:43px;
   line-height: 44px;
+  overflow: hidden;
+  word-break:break-all;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  display: block;
+  font-size: 14px;
+  color:#2b2b2b;
 }
+.main_left_block .block2 ul li span{
+    position:absolute;
+    left:-13px;
+    top:16px;
+    width:7px;
+    height:11px;
+    background: url('arr_13.gif') no-repeat;
+}
+
 .main_right .message .time span{
   display:inline-block;
   margin-right:16px;
