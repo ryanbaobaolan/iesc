@@ -37,11 +37,20 @@
 /*章程*/
 .constitution_block .title{
 	width:auto;
-	display: inline-block;
-	background: url('111.gif') no-repeat right;
-	height:39px;
-	line-height: 30px;
+	background: url('111.gif') no-repeat right top;
+	height:34px;
+	text-align: center;
+	padding:0 15px 5px 15px;
+}
+.constitution_block .title2{
 	padding:0 15px;
+	height:39px;
+	line-height: 39px;
+	background: #cae787;
+	display: inline-block;
+}
+.constitution_block .c_content{
+	line-height: 25px;
 }
 
 /*登录*/
@@ -112,7 +121,6 @@
 .circle_step li {
 	margin-right:40px;
 }
-
 
 .error{
 	background: url("error.gif") no-repeat;
