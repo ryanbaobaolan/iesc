@@ -158,10 +158,10 @@ body{
 	color:#acacac;
 	width:600px;
 	overflow: hidden;
-  word-break:break-all;
-  text-overflow:ellipsis;
-  white-space:nowrap;
- display: block;
+  	word-break:break-all;
+  	text-overflow:ellipsis;
+  	white-space:nowrap;
+ 	display: block;
 }
 .pagenumber{
 	width:565px;

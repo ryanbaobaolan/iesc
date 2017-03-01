@@ -36,6 +36,7 @@ ul li{
 	height:210px;
 	display: block;
 	position:relative;
+
 	
 }
 .coming_meeting .meeting_content{
@@ -71,14 +72,21 @@ ul li{
 	color:#fff;
 	background: #969696;
 }
-.meeting_main .main_left .m_newslist li a{
+.meeting_main .main_left .m_newslist li{
+	width:753px;
+	position: relative;
 	border-bottom:1px dashed #ededed;
+}
+.meeting_main .main_left .m_newslist li a{
 	display:block;
 	padding:8px 0 8px 20px;
 	color:#303030;
-	width:736px;
+	width:540px;
 	/*_width:600px;*/
-	position: relative;
+	overflow: hidden;
+  	word-break:break-all;
+  	text-overflow:ellipsis;
+  	white-space:nowrap;
 }
 .meeting_main .main_left .m_newslist li a span{
 	position:absolute;

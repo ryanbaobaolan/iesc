@@ -28,10 +28,18 @@ ul li{
 }
 .publication ul .pub_block .block .pub_key{
 	line-height: 20px;
+	width:179px;
+	height:38px;
+	overflow: hidden;
+  	/*word-break:break-all;
+  	text-overflow:ellipsis;
+  	white-space:nowrap;*/
 }
 .publication ul .pub_block .block .pub_intro{
 	height:170px;
 	line-height: 24px;
+	width:350px;
+	overflow: hidden;
 }
 .publication ul .pub_block .link{
 	background: #ddd;
