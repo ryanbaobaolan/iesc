@@ -29,13 +29,10 @@ ul li{
 	font-style: normal;
 }
 .publication ul .pub_block .block .pub_key{
-	line-height: 20px;
-	width:179px;
-	height:38px;
-	overflow: hidden;
-  	/*word-break:break-all;
-  	text-overflow:ellipsis;
-  	white-space:nowrap;*/
+	 line-height: 17px;
+    width: 179px;
+    height: 33px;
+    overflow: hidden;
 }
 .publication ul .pub_block .block .pub_intro{
 	height:170px;

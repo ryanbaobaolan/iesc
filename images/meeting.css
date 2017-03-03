@@ -52,6 +52,8 @@ ul li{
 }
 .coming_meeting .meeting_content h4,.coming_meeting .meeting_content p{
 	width:195px;
+	height:40px;
+	overflow: hidden;
 }
 .meeting_main .main_left{
 	width:786px;
