@@ -1,0 +1,123 @@
+/*header开始*/
+body{
+  background-color: #f3f3f3;
+}
+.header{
+  background-color: #f8f8f8;
+
+}
+.header_link{
+  color:#5d5d5d;
+  line-height: 26px;
+  border-bottom:1px dashed #e2e2e2;
+  background: #f8f8f8;
+}
+.header_link a{
+  color:#5d5d5d;
+  margin:0 5px;
+}
+.header_link a:hover{
+  color:#999;
+}
+.header_logo{
+  height:92px;
+  background: #f8f8f8;
+}
+.header_logo .logo{
+  margin-top:15px;
+}
+.logo img {
+	border:none;
+}
+.header_lang{
+  margin-left:10px;
+  background: url('lang_09.gif') no-repeat;
+  margin-top:40px;
+  line-height: 14px;
+}
+.header_lang a{
+  color:#5d5d5d;
+  margin-left:10px;
+}
+.header_lang a:hover{
+	text-decoration:underline;
+}
+.header_search{
+  background: url("input_06.gif") no-repeat;
+  position:relative;
+  width:350px;
+  height:33px;
+  margin-top:28px;
+}
+.header_search input{
+  width:270px;
+  color:#a0a0a0;
+  height:28px;
+  line-height:28px;
+  font-size:14px;
+  position:absolute;
+  top:3px;
+  left:26px;
+  /*_top:7px;*/
+  background: transparent;
+  outline:none;border:0;margin:0;padding:0;font-family:Microsoft YaHei;
+
+}
+.header_search a{
+  position:absolute;
+  top:9px;
+  right:20px;
+}
+
+.nav_bg{
+  background-color: #33afc7;
+}
+.nav ul{
+  list-style:none;margin:0;padding:0;
+}
+.nav li{
+  width:132px;
+  float:left;
+  text-align: center;
+}
+.nav li a{
+  color:#fff;
+  font-size:18px;
+  display:block;
+  line-height:38px;
+
+}
+.nav li a:hover{
+  color:#000;
+}
+.main_pic{
+  margin:5px auto 0 auto;
+}
+/*footer开始*/
+.footer_bg{
+  background-color: #d3d3d3;
+}
+.footer_nav ul{
+	list-style:none;padding:0;margin:0;
+}
+.footer_nav ul li a{
+  color:#000;
+  background: url("footernav_02.gif") 120px -5px no-repeat;
+}
+.footer_nav ul li a:hover{
+  color:#43bdd4;
+}
+.footer_logo{
+  display: inline-block;
+  margin-top:20px;
+}
+.footer_bg .connect ul{
+  width:480px;list-style:none;padding:0;margin:0;
+}
+.footer_bg .connect ul li{
+  width:240px;
+  margin-top:15px;
+  float:left;
+  font-size:14px;
+  color:#525252;
+}

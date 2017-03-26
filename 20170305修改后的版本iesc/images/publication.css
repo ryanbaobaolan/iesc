@@ -1,0 +1,63 @@
+body{
+	background: #f5f5f5;
+}
+ul li{
+	list-style: none;
+}
+.publication ul {
+	list-style:none;margin:0;padding:0;
+}
+.publication ul .pub_block{
+	float:left;
+	margin:0px 31px 30px 0px;
+	background: #fff;
+	width:380px;
+
+}
+.publication ul .pub_block .block{
+	display: block;
+}
+.publication ul .pub_block .block h1{
+	padding:20px 0 15px 0px;
+	border-bottom:2px solid #a9edf9;
+	text-align: center;
+	
+}
+.publication ul .pub_block .block .pub_block_top{
+	height:203px;
+	_height:210px;
+}
+.publication ul .pub_block .block .pub_detial i{
+	font-style: normal;
+}
+.publication ul .pub_block .block .pub_key{
+	 line-height: 17px;
+    width: 179px;
+    height: 33px;
+    overflow: hidden;
+}
+.publication ul .pub_block .block .pub_intro{
+	height:170px;
+	line-height: 24px;
+	width:350px;
+	overflow: hidden;
+}
+.publication ul .pub_block p{
+	margin:0;
+}
+.publication ul .pub_block .link{
+	background: #ddd;
+	height:50px;
+	line-height: 50px;
+	position: relative;
+}
+.publication ul .pub_block .rss{
+	display: inline-block;
+	position: absolute;
+	left:15px;
+	top:13px;
+	background: url('pub_13.jpg') no-repeat;
+	width:103px;
+	height:26px;
+}
+.more:hover{text-decoration:underline;}
