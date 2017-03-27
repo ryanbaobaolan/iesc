@@ -1,0 +1,128 @@
+body{
+	background: #f3f3f3;
+}
+.header_tag{
+	overflow: hidden;
+	height:30px;
+	padding:10px 16px;
+
+
+}
+.header_tag a{
+	display: inline-block;
+	float:left;
+	padding:6px 12px;
+	background: #84d884;
+	color: #fff;
+	margin-right:10px;
+	font-size: 16px;
+}
+.header_tag a:hover{
+	background: #f8b600;
+}
+.newslist_nav{
+	height:45px;
+	background:#ebebeb;
+	border-bottom:2px solid #43bdd4;
+	padding:0 20px;
+	line-height: 45px;
+}
+.newslist_nav a{
+	color:#939393;
+}
+.login_content{
+	background: #fff;
+	padding:60px 130px;
+	overflow: hidden;
+}
+.login_content .pic{
+	width: 250px;
+	text-align: center;
+	margin-right: 105px;
+}
+.login_content .pic img{
+	display: inline-block;
+	margin-top: 70px;
+}
+.login_content .pic h2{
+	font-size: 24px;
+	font-style: italic;
+	color: #42a4ff;
+	line-height: 30px;
+	margin-top:10px;
+	text-align: center;
+	font-weight: normal;
+}
+.login_content .ablock{
+	width:555px;
+}
+.login_content .ablock .regtip{
+	color: #418bd4;
+}
+.login_content .ablock .regtip a{
+	color: #ff6000;
+}
+.login_content .username .infor{
+	width:46px;
+	display:inline-block;
+	margin-right:10px;
+}
+.login_content .username input{
+	width:323px;
+	height:34px;
+	line-height: 34px\0;
+	_line-height: 34px;
+
+	border:1px solid #c9c9c9;
+	padding-left:10px;
+}
+.login_content .login_btn{
+	_position:relative;
+}
+.login_content .login_btn a{
+	_position:absolute;
+	_top:10px;
+	_left:280px;
+}
+.login_content .login_btn input{
+	width:180px;
+	height:40px;
+	border:1px solid #fff;
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.2);
+	background-color: #42a4ff;
+	margin:0 20px 25px 60px;
+	color:#fff;
+	letter-spacing:15px;
+	text-align: center;
+	font-weight: 900;
+	cursor: pointer;
+
+}
+.username{
+	_position:relative;
+}
+.username .tip{
+	_position:absolute;
+	_top:7px;
+	_left:430px;
+}
+.username .error,.username .correct{
+	_top:7px;
+}
+.error{
+	background: url("error.gif") no-repeat;
+	width:20px;
+	height:20px;
+	display: inline-block;
+	margin:0 5px;
+	_position:absolute;
+}
+.correct{
+	background: url("correct.gif") no-repeat;
+	width:20px;
+	height:20px;
+	display: inline-block;
+	margin:0 5px;
+	_position:absolute;
+}
+
